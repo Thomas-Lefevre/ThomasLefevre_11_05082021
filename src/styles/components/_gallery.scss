@@ -1,0 +1,72 @@
+.gallery {
+    margin: 45px auto;
+    width: 90%;
+    border-radius: 25px;
+    background-color: $gray;
+
+    @media only screen and (max-width : 700px) {
+        background-color: white;
+        margin: auto;
+    }
+
+    &__container {
+        width: 95%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        padding-bottom: 50px;
+        @media only screen and (max-width : 700px) {
+            width: 100%;
+        }
+    }
+
+    &__article {
+        margin: 50px 0 0;
+        height: 21.25em;
+        width: 33.3%;
+
+        @media only screen and (max-width : 700px) {
+            width: 100%;
+            height: 255px;
+            margin: 20px 0 0;
+        }
+
+        &__link {
+            display: block;
+            position: relative;
+            height: 21.25em;
+            width: 21.25em;
+            margin: auto;
+            border-radius: 10px;
+            overflow: hidden;
+
+            @media only screen and (max-width : 700px) {
+                width: 100%;
+                height: 255px;
+                border-radius: 10px;
+            }
+        }
+
+        &__img {
+            background-color: $red;
+            width: 100%;
+            height: 100%;
+        }
+
+        &__darken {
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+            position: absolute;
+            top: 0px;
+            height: 100%;
+            width: 100%;
+        }
+
+        &__title {
+            position: absolute;
+            bottom: 5%;
+            left: 5%;
+            color: white;
+            font-size: 18px;
+        }
+    }
+}

@@ -1,0 +1,599 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #FF6060;
+  font-weight: 500;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  width: 90%;
+  margin: 2em auto;
+  display: flex;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 700px) {
+  .header__logo {
+    width: 145px;
+    height: 50px;
+  }
+}
+.header__nav {
+  width: 15%;
+  margin: auto 0;
+}
+@media only screen and (max-width: 700px) {
+  .header__nav {
+    width: 40%;
+  }
+}
+.header__ul {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+}
+@media only screen and (max-width: 700px) {
+  .header__ul {
+    font-size: 12px;
+    justify-content: space-around;
+  }
+}
+.header__ul--a:hover {
+  text-decoration: underline;
+}
+
+.homeBanner {
+  width: 90%;
+  margin: auto;
+  border-radius: 25px;
+  overflow: hidden;
+  position: relative;
+}
+@media only screen and (max-width: 700px) {
+  .homeBanner {
+    height: 110px;
+    border-radius: 10px;
+  }
+}
+.homeBanner__img {
+  width: 100%;
+}
+@media only screen and (max-width: 700px) {
+  .homeBanner__img {
+    display: none;
+  }
+}
+.homeBanner__img--mobile {
+  display: none;
+}
+@media only screen and (max-width: 700px) {
+  .homeBanner__img--mobile {
+    display: block;
+  }
+}
+.homeBanner__darken {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background: black;
+  mix-blend-mode: darken;
+  opacity: 0.3;
+}
+.homeBanner__catchPhrase {
+  font-size: 48px;
+  color: white;
+  position: absolute;
+}
+@media only screen and (min-width: 1200px) {
+  .homeBanner__catchPhrase {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media only screen and (max-width: 700px) {
+  .homeBanner__catchPhrase {
+    font-size: 24px;
+    width: 50%;
+    top: 50%;
+    left: 5%;
+    transform: translate(0, -50%);
+  }
+}
+
+.gallery {
+  margin: 45px auto;
+  width: 90%;
+  border-radius: 25px;
+  background-color: #F7F7F7;
+}
+@media only screen and (max-width: 700px) {
+  .gallery {
+    background-color: white;
+    margin: auto;
+  }
+}
+.gallery__container {
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  padding-bottom: 50px;
+}
+@media only screen and (max-width: 700px) {
+  .gallery__container {
+    width: 100%;
+  }
+}
+.gallery__article {
+  margin: 50px 0 0;
+  height: 21.25em;
+  width: 33.3%;
+}
+@media only screen and (max-width: 700px) {
+  .gallery__article {
+    width: 100%;
+    height: 255px;
+    margin: 20px 0 0;
+  }
+}
+.gallery__article__link {
+  display: block;
+  position: relative;
+  height: 21.25em;
+  width: 21.25em;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+@media only screen and (max-width: 700px) {
+  .gallery__article__link {
+    width: 100%;
+    height: 255px;
+    border-radius: 10px;
+  }
+}
+.gallery__article__img {
+  background-color: #FF6060;
+  width: 100%;
+  height: 100%;
+}
+.gallery__article__darken {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+}
+.gallery__article__title {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  color: white;
+  font-size: 18px;
+}
+
+.footer {
+  background-color: black;
+  height: 210px;
+}
+.footer__logo {
+  margin: auto;
+  width: fit-content;
+}
+.footer__logo__img {
+  margin: 65px auto 30px;
+}
+.footer__copyright {
+  color: white;
+  margin: auto;
+  width: fit-content;
+  font-size: 24px;
+}
+@media only screen and (max-width: 700px) {
+  .footer__copyright {
+    font-size: 12px;
+  }
+}
+
+.carousel {
+  width: 90%;
+  height: 415px;
+  margin: 0 auto 30px;
+  background-color: gray;
+  border-radius: 25px;
+  overflow: hidden;
+}
+@media only screen and (max-width: 700px) {
+  .carousel {
+    height: 255px;
+    border-radius: 10px;
+    margin: 0 auto 15px;
+  }
+}
+
+.description {
+  width: 90%;
+  margin: auto;
+}
+
+@media only screen and (min-width: 1200px) {
+  .principalInformation {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.principalInformation__appartement {
+  width: 50%;
+}
+@media only screen and (max-width: 700px) {
+  .principalInformation__appartement {
+    width: 100%;
+  }
+}
+.principalInformation__appartement__name {
+  font-size: 36px;
+}
+@media only screen and (max-width: 700px) {
+  .principalInformation__appartement__name {
+    font-size: 18px;
+    margin: 0 0 5px;
+  }
+}
+.principalInformation__appartement__localisation {
+  font-size: 18px;
+}
+@media only screen and (max-width: 700px) {
+  .principalInformation__appartement__localisation {
+    font-size: 14px;
+  }
+}
+.principalInformation__appartement__tagList {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 20px 0;
+}
+@media only screen and (max-width: 700px) {
+  .principalInformation__appartement__tagList {
+    width: 100%;
+    justify-content: flex-start;
+    margin: 10px 0 15px;
+  }
+}
+.principalInformation__appartement__tagList__tag {
+  width: 30%;
+  padding: 5px;
+  background-color: #FF6060;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 700px) {
+  .principalInformation__appartement__tagList__tag {
+    padding: 2px;
+    width: 80px;
+    border-radius: 5px;
+    margin: 0 15px 0 0;
+  }
+}
+.principalInformation__appartement__tagList__tagName {
+  margin: auto;
+  color: white;
+  width: fit-content;
+  font-size: 14px;
+}
+@media only screen and (max-width: 700px) {
+  .principalInformation__appartement__tagList__tagName {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .principalInformation__landlord {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 0 0 17px 0;
+  }
+}
+.principalInformation__landlord__information {
+  display: flex;
+  align-items: center;
+}
+.principalInformation__landlord__information__name {
+  font-size: 18px;
+  text-align: right;
+  width: 90px;
+  height: fit-content;
+  margin: 0 10px 0 0;
+  line-height: 142.6%;
+}
+@media only screen and (max-width: 700px) {
+  .principalInformation__landlord__information__name {
+    font-size: 12px;
+  }
+}
+.principalInformation__landlord__information__img {
+  width: 64px;
+  height: 64px;
+  background-color: gray;
+  border-radius: 50%;
+  margin: 0 0 20px;
+}
+@media only screen and (max-width: 700px) {
+  .principalInformation__landlord__information__img {
+    width: 32px;
+    height: 32px;
+  }
+}
+.principalInformation__landlord__rate {
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 700px) {
+  .principalInformation__landlord__rate__img {
+    height: 15px;
+    width: 15px;
+  }
+}
+
+.dropdownDescription {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 30px;
+}
+@media only screen and (max-width: 700px) {
+  .dropdownDescription {
+    flex-direction: column;
+    margin: 0 0 15px;
+  }
+}
+.dropdownDescription__description {
+  background-color: #F7F7F7;
+  border-radius: 10px;
+  width: 45%;
+}
+@media only screen and (max-width: 700px) {
+  .dropdownDescription__description {
+    width: 100%;
+    border-radius: 5px;
+    margin: 0 0 20px;
+  }
+}
+.dropdownDescription__description__header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #FF6060;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 700px) {
+  .dropdownDescription__description__header {
+    border-radius: 5px;
+    align-items: center;
+    padding: 6px 12px;
+  }
+}
+.dropdownDescription__description__header__name {
+  color: white;
+  font-size: 18px;
+}
+@media only screen and (max-width: 700px) {
+  .dropdownDescription__description__header__name {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .dropdownDescription__description__header__arrow {
+    height: 9px;
+    width: 15px;
+  }
+}
+.dropdownDescription__description__content {
+  padding: 40px 20px 50px;
+  font-size: 18px;
+  line-height: 142.6%;
+}
+@media only screen and (max-width: 700px) {
+  .dropdownDescription__description__content {
+    padding: 16px 11px 10px;
+    font-size: 12px;
+  }
+}
+.dropdownDescription__equipements {
+  background-color: #F7F7F7;
+  border-radius: 10px;
+  width: 45%;
+}
+@media only screen and (max-width: 700px) {
+  .dropdownDescription__equipements {
+    width: 100%;
+    border-radius: 5px;
+    margin: 0 0 20px;
+  }
+}
+.dropdownDescription__equipements__header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #FF6060;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 700px) {
+  .dropdownDescription__equipements__header {
+    border-radius: 5px;
+    align-items: center;
+    padding: 6px 12px;
+  }
+}
+.dropdownDescription__equipements__header__name {
+  color: white;
+  font-size: 18px;
+}
+@media only screen and (max-width: 700px) {
+  .dropdownDescription__equipements__header__name {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .dropdownDescription__equipements__header__arrow {
+    height: 9px;
+    width: 15px;
+  }
+}
+.dropdownDescription__equipements__content {
+  padding: 40px 20px 50px;
+  font-size: 18px;
+  line-height: 142.6%;
+}
+@media only screen and (max-width: 700px) {
+  .dropdownDescription__equipements__content {
+    padding: 16px 11px 10px;
+    font-size: 12px;
+  }
+}
+
+.error__404 {
+  margin: 175px auto 55px;
+  width: fit-content;
+  font-size: 288px;
+  font-weight: 700;
+}
+@media only screen and (max-width: 700px) {
+  .error__404 {
+    font-size: 96px;
+    margin: 190px auto 10px;
+  }
+}
+.error__phrase {
+  font-size: 36px;
+  margin: 0 auto 180px;
+  width: fit-content;
+}
+@media only screen and (max-width: 700px) {
+  .error__phrase {
+    margin: 0 auto 130px;
+    font-size: 18px;
+    width: 70%;
+    text-align: center;
+  }
+}
+.error__link {
+  display: block;
+  width: fit-content;
+  margin: 0 auto 50px;
+  font-size: 18px;
+}
+.error__link:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 700px) {
+  .error__link {
+    font-size: 14px;
+  }
+}
+
+.AProposBanner {
+  width: 90%;
+  margin: auto;
+  border-radius: 25px;
+  overflow: hidden;
+  position: relative;
+}
+@media only screen and (max-width: 700px) {
+  .AProposBanner {
+    border-radius: 10px;
+  }
+}
+.AProposBanner__img {
+  width: 100%;
+}
+@media only screen and (max-width: 700px) {
+  .AProposBanner__img {
+    display: none;
+  }
+}
+.AProposBanner__img--mobile {
+  display: none;
+}
+@media only screen and (max-width: 700px) {
+  .AProposBanner__img--mobile {
+    display: block;
+  }
+}
+.AProposBanner__darken {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background: black;
+  mix-blend-mode: darken;
+  opacity: 0.3;
+}
+
+.dropdownAPropos {
+  width: 80%;
+  margin: auto;
+}
+@media only screen and (max-width: 700px) {
+  .dropdownAPropos {
+    width: 90%;
+  }
+}
+.dropdownAPropos__dropdown {
+  margin: 33px auto;
+  background-color: #F7F7F7;
+  border-radius: 5px;
+}
+@media only screen and (max-width: 700px) {
+  .dropdownAPropos__dropdown {
+    margin: 20px auto;
+  }
+}
+.dropdownAPropos__dropdown__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FF6060;
+  padding: 6px 20px;
+  border-radius: 5px;
+}
+.dropdownAPropos__dropdown__header__name {
+  color: white;
+  font-size: 24px;
+  width: fit-content;
+}
+@media only screen and (max-width: 700px) {
+  .dropdownAPropos__dropdown__header__name {
+    font-size: 13px;
+  }
+}
+.dropdownAPropos__dropdown__header__arrow {
+  width: 24px;
+  height: 14px;
+}
+@media only screen and (max-width: 700px) {
+  .dropdownAPropos__dropdown__header__arrow {
+    height: 9px;
+    width: 15px;
+  }
+}
+.dropdownAPropos__dropdown__content {
+  padding: 40px 20px 20px;
+  font-size: 24px;
+  line-height: 124.6%;
+}
+@media only screen and (max-width: 700px) {
+  .dropdownAPropos__dropdown__content {
+    padding: 20px 10px 30px;
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

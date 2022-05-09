@@ -1,0 +1,59 @@
+.dropdownAPropos {
+    width: 80%;
+    margin: auto;
+
+    @media only screen and (max-width : 700px) {
+        width: 90%;
+    }
+
+
+    &__dropdown {
+        margin: 33px auto;
+        background-color: $gray;
+        border-radius: 5px;
+
+        @media only screen and (max-width : 700px) {
+            margin: 20px auto;
+        }
+
+        &__header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: $red;
+            padding: 6px 20px;
+            border-radius: 5px;
+
+            &__name {
+                color: white;
+                font-size: 24px;
+                width: fit-content;
+
+                @media only screen and (max-width : 700px) {
+                    font-size: 13px;
+                }
+            }
+
+            &__arrow {
+                width: 24px;
+                height: 14px;
+
+                @media only screen and (max-width : 700px) {
+                    height: 9px;
+                    width: 15px;
+                }
+            }
+        }
+
+        &__content {
+            padding: 40px 20px 20px;
+            font-size: 24px;
+            line-height: 124.6%;
+
+            @media only screen and (max-width : 700px) {
+                padding: 20px 10px 30px;
+                font-size: 12px;
+            }
+        }
+    }
+}
