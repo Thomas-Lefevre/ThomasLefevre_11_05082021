@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/ThomasLefevre_11_05082021/static/css/main.d4791a24.css",
+    "main.js": "/ThomasLefevre_11_05082021/static/js/main.7b12755c.js",
+    "static/media/AProposBannerImageMobile.svg": "/ThomasLefevre_11_05082021/static/media/AProposBannerImageMobile.b0fdb1fdfc53ee8fea610d28253326f8.svg",
+    "static/media/AProposBannerImage.svg": "/ThomasLefevre_11_05082021/static/media/AProposBannerImage.d33fe2562b780b571ab45fd1e4cced6d.svg",
+    "static/media/homeBannerImageMobile.svg": "/ThomasLefevre_11_05082021/static/media/homeBannerImageMobile.2a09d61e6275968d93f85ea00fd66c46.svg",
+    "static/media/homeBannerImage.svg": "/ThomasLefevre_11_05082021/static/media/homeBannerImage.bb95764b977cc4097a67ee5993e4f4fc.svg",
+    "static/media/montserrat-all-400-normal.woff": "/ThomasLefevre_11_05082021/static/media/montserrat-all-400-normal.aa917f2f47304e192c88.woff",
+    "static/media/montserrat-latin-400-normal.woff2": "/ThomasLefevre_11_05082021/static/media/montserrat-latin-400-normal.f2d2ef7bf6fc24bddc8f.woff2",
+    "static/media/montserrat-latin-ext-400-normal.woff2": "/ThomasLefevre_11_05082021/static/media/montserrat-latin-ext-400-normal.75ba6196d4ce0a73d699.woff2",
+    "static/media/montserrat-cyrillic-ext-400-normal.woff2": "/ThomasLefevre_11_05082021/static/media/montserrat-cyrillic-ext-400-normal.d2bdc151bae5b3d2d100.woff2",
+    "static/media/montserrat-cyrillic-400-normal.woff2": "/ThomasLefevre_11_05082021/static/media/montserrat-cyrillic-400-normal.9c4cf182194c27761650.woff2",
+    "static/media/montserrat-vietnamese-400-normal.woff2": "/ThomasLefevre_11_05082021/static/media/montserrat-vietnamese-400-normal.69611381dc5e4dd3b448.woff2",
+    "static/media/logoFooter.svg": "/ThomasLefevre_11_05082021/static/media/logoFooter.21fa138c3721ecbf72b3e79b476b603c.svg",
+    "static/media/LOGO.svg": "/ThomasLefevre_11_05082021/static/media/LOGO.bb1c78bdbf97911cf6044e13e0c4f670.svg",
+    "index.html": "/ThomasLefevre_11_05082021/index.html",
+    "static/media/flecheDropdownDown.svg": "/ThomasLefevre_11_05082021/static/media/flecheDropdownDown.b052dd29e3a2bab76700eee79e133c37.svg",
+    "static/media/rightArrow.svg": "/ThomasLefevre_11_05082021/static/media/rightArrow.88153a5d119c2744ffe34dca1ef843df.svg",
+    "static/media/leftArrow.svg": "/ThomasLefevre_11_05082021/static/media/leftArrow.19918a1634b1441a25ae0b50e6b1f85b.svg",
+    "static/media/flecheDropdownUp.svg": "/ThomasLefevre_11_05082021/static/media/flecheDropdownUp.78bd04c58743a7da8d3cf86f2cc23063.svg",
+    "static/media/StarGray.svg": "/ThomasLefevre_11_05082021/static/media/StarGray.7e4ba6032d7d80ecc30aa389973cef95.svg",
+    "static/media/StarRed.svg": "/ThomasLefevre_11_05082021/static/media/StarRed.6430150c126a3adf92c132c52c9c7428.svg",
+    "main.d4791a24.css.map": "/ThomasLefevre_11_05082021/static/css/main.d4791a24.css.map",
+    "main.7b12755c.js.map": "/ThomasLefevre_11_05082021/static/js/main.7b12755c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4791a24.css",
+    "static/js/main.7b12755c.js"
+  ]
+}
