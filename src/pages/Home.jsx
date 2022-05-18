@@ -4,11 +4,14 @@ import Gallery from '../components/Gallery';
 import Footer from '../components/Footer';
 
 function Home() {
+
   return (
-    <div>
+    <div className='pageContainer'>
       <Header />
-      <Banner />
-      <Gallery />
+      <div className="contentWrap">
+        <Banner />
+        <Gallery />
+      </div>
       <Footer />
     </div>
   );

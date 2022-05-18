@@ -1,0 +1,55 @@
+.dropdown {
+    width: 100%;
+    height: 100%;
+
+    &--open {
+        background-color: $gray;
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    &--close {
+        background-color: white;
+        height: 100%;
+    }
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        background-color: $red;
+        padding: 15px 20px;
+        border-radius: 10px;
+
+        @media only screen and (max-width : 700px) {
+            border-radius: 5px;
+            align-items: center;
+            padding: 6px 12px;
+        }
+
+        &__name {
+            color: white;
+            font-size: 18px;
+
+            @media only screen and (max-width : 700px) {
+                font-size: 13px;
+            }
+        }
+
+        &__arrow {
+            @media only screen and (max-width : 700px) {
+                height: 9px;
+                width: 15px;
+            }
+        }
+    }
+
+    &__content {
+        padding: 40px 20px 50px;
+        line-height: 142.6%;
+
+        @media only screen and (max-width : 700px) {
+            padding: 16px 11px 10px;
+            font-size: 12px;
+        }
+    }
+}

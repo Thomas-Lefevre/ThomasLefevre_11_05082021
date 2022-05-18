@@ -4,9 +4,11 @@ import Footer from '../components/Footer';
 
 function Error404() {
     return (
-        <div>
+        <div className='pageContainer'>
             <Header />
-            <Error />
+            <div className="contentWrap">
+                <Error />
+            </div>
             <Footer />
         </div>
     );

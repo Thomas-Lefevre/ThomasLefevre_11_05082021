@@ -3,6 +3,7 @@
     padding: 0;
     color: $red;
     font-weight: 500;
+    font-family: "Montserrat";
 }
 
 ul {
@@ -11,4 +12,13 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+.pageContainer{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.contentWrap{
+    flex: 1;
 }
